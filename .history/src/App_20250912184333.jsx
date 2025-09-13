@@ -8,24 +8,24 @@ function App() {
     return (
         <div>
             <header className='app-header'>
-                <h1>✨ Book Catalog ✨</h1>
+                <h1>Book Catalog</h1>
             </header>
 
             <main className='app-main'>
-                <div className='app-content'>
+                <div className='content'>
                     <NewButton />
                     <Book
                         cover='https://itbook.store/img/books/1001667919733.png'
-                        alt='Internet of Things'
-                        author='by HackSpace Team'
+                        alt='Cloud Native DevOps with Kubernetes'
+                        author='by Justin Domingus, John Arundel'
                         info='https://itbook.store/books/1001667919733'
                     />
 
                     <Book
-                        cover='https://itbook.store/img/books/1001635431011.png'
-                        alt='50 Best 3D Prints'
-                        author='by HackSpace Team'
-                        info='https://itbook.store/books/1001635431011'
+                        cover='book2.png'
+                        alt='NGINX Cookbook'
+                        author='by Derek DeJonghe'
+                        info='https://itbook.store/books/9781837630516'
                     />
                 </div>
             </main>

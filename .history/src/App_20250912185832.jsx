@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NewButton from "./NewButton";
-import Book from "./bookButton";
+import Book from "./BookButton";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <header className='app-header'>
-                <h1>✨ Book Catalog ✨</h1>
+                <h1>Book Catalog</h1>
             </header>
 
             <main className='app-main'>

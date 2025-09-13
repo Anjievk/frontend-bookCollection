@@ -8,11 +8,11 @@ function App() {
     return (
         <div>
             <header className='app-header'>
-                <h1>✨ Book Catalog ✨</h1>
+                <h1>Book Catalog</h1>
             </header>
 
             <main className='app-main'>
-                <div className='app-content'>
+                <div className='content'>
                     <NewButton />
                     <Book
                         cover='https://itbook.store/img/books/1001667919733.png'
